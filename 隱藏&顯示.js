@@ -1,4 +1,9 @@
-window.onload=function(){
+$(function() {
+   $( "#tabs" ).tabs({
+      collapsible: true
+    });
+  }); 
+  window.onload=function(){
   var odiv=document.getElementById("tabs");
   var obt=document.getElementById("bt");
   obt.onclick=function(){
