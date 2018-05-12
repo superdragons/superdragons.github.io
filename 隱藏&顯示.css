@@ -1,0 +1,20 @@
+#antzone{
+  width:200px;
+  height:100px;
+  background:#ccc;
+}
+</style>
+<script type="text/javascript">
+window.onload=function(){
+  var odiv=document.getElementById("tabs");
+  var obt=document.getElementById("bt");
+  obt.onclick=function(){
+    if(odiv.style.display=="none"){
+      odiv.style.display="block";
+      this.value="隱藏";
+    }else{
+      odiv.style.display="none";
+      this.value="顯示";
+    }
+  }
+}
