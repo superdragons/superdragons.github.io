@@ -1,0 +1,63 @@
+<style>.player-fix {
+      width: 980px;
+      text-align: center;
+      position: relative;
+    }
+
+    .player-fix.abs {
+      position: absolute;
+      margin-left: -490px;
+      top: 414px;
+      left: 50%;
+      min-height: 556px;
+      z-index: 201;
+    }
+
+    #bofqi .player {
+      width: 980px;
+      height: 556px;
+      display: block
+    }
+
+    #bofqi.wide .player {
+      height: 608px
+    }
+
+    #bofqi.webfullscreen .player {
+      width: 100%;
+      height: 100%;
+      margin-top: 0
+    }
+
+    #bofqi #player_placeholder .placeholder {
+      width: 980px;
+      height: 556px
+    }
+
+    #bofqi embed {
+      width: 980px;
+      height: 530px
+    }
+
+    @media screen and (min-width:1400px) {
+      .player-fix {
+        width: 1160px;
+      }
+      .player-fix.abs {
+        margin-left: -580px;
+        left: 50%;
+        min-height: 688px;
+      }
+      #bofqi .player,
+      #bofqi embed {
+        width: 1160px;
+        height: 688px
+      }
+      #bofqi.wide .player {
+        height: 737px
+      }
+      #player_placeholder .placeholder {
+        width: 1160px;
+        height: 688px
+      }
+    }</style>
