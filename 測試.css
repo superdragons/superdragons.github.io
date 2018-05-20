@@ -1,3 +1,26 @@
+<script type="text/javascript">(function () {
+      var ua = window.navigator.userAgent,
+        agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPod"],
+        isPC = true;
+      for (var i = 0, len = agents.length; i < len; i++) {
+        if (ua.indexOf(agents[i]) > 0) {
+          isPC = false;
+          break
+        }
+      }
+      if (!isPC) {
+        var href = window.location.origin.replace("www", "m") + "/video/" + window.location.href.match(/av([0-9]+)/g)[
+          0] + ".html" + window.location.search;
+        window.location.href = href
+      }
+    })();</script><script type="text/javascript">window.spmReportData = {}
+    window.reportConfig = {
+      sample: 1,
+      scrollTracker: true,
+      msgObjects: 'spmReportData',
+      errorTracker: true
+    }</script>
+
 <style>.player-fix {
       width: 980px;
       text-align: center;
