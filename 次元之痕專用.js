@@ -1,5 +1,5 @@
 $(function() {
-   $( "#tabs" ).tabs({
+   $( "#tabs,1" ).tabs({
       collapsible: true
     });
   }); 
