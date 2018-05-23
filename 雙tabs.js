@@ -2,7 +2,9 @@ $(function() {
    $( "#tabs" ).tabs({
       collapsible: true
     });
-   $(function() {
+  }); 
+$(function() {
    $( "#tabs2" ).tabs({
       collapsible: true
+    });
   }); 
