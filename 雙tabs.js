@@ -3,6 +3,6 @@ $(function() {
       collapsible: true
     });
    $(function() {
-   $( "#tabs-2" ).tabs({
+   $( "#tabs2" ).tabs({
       collapsible: true
   }); 
