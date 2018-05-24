@@ -9,6 +9,8 @@
     outline: none;
     font-size: 17px;
     transition: 0.4s;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
 }
 
 .active, .accordion:hover {
