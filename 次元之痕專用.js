@@ -3,6 +3,11 @@ $(function() {
       collapsible: true
     });
   }); 
+	  
+ $(function() {
+ $( "#tabs" ).hide();
+  });
+	  
   window.onload=function(){
   var odiv=document.getElementById("tabs");
   var obt=document.getElementById("bt");
