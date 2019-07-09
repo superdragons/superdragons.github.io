@@ -1,0 +1,41 @@
+var jwDefaults = {
+  "aspectratio": "16:9",
+  "autostart": false,
+  "cast": {
+    "appid": "00000000"
+  },
+  "controls": true,
+  "displaydescription": false,
+  "displaytitle": true,
+  "flashplayer": "//ssl.p.jwpcdn.com/player/v/8.9.3/jwplayer.flash.swf",
+  "floating": {},
+  "height": 360,
+  "key": "5zGKu8xJErIGvCMAzLckr0fCXJspkc4chwUxjFCCOiyDphBw3IzDP+TWuAwNEyl8",
+  "logo": {
+    "file": "https://assets-jpcust.jwpsrv.com/watermarks/GIvrRase.jpg",
+    "hide": false,
+    "link": "https://dimension-animation.blogspot.tw/",
+    "margin": "10",
+    "position": "top-right"
+  },
+  "mute": false,
+  "ph": 1,
+  "pid": "0jD5z4vX",
+  "playbackRateControls": true,
+  "preload": "auto",
+  "repeat": false,
+  "skin": {
+    "controlbar": {
+      "icons": "rgba(128, 128, 128, 0.82)",
+      "text": "rgba(128, 128, 128, 0.82)"
+    },
+    "timeslider": {
+      "progress": "#001DFF",
+      "rail": "rgba(0, 0, 255, 0.3)"
+    }
+  },
+  "stagevideo": false,
+  "stretching": "uniform",
+  "width": "100%"
+};
+jwplayer.defaults = jwDefaults;
